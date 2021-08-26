@@ -1,5 +1,28 @@
-name: "action name"
-description: "action description"
+name: "vte deploy"
+description: "deploy artifact on selected env""
+
+inputs:
+  host:
+    description: 'host'
+    required: true
+  identity:
+    description: 'identity'
+    required: true
+  name:
+    description: 'name'
+    required: true
+  group:
+    description: 'group'
+    required: true
+  version:
+    description: 'version'
+    required: true
+  username:
+    description: 'version'
+    required: true
+  password:
+    description: 'version'
+    required: true
 
 runs:
   using: 'node12'
