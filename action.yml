@@ -1,5 +1,5 @@
 name: "vte deploy"
-description: "deploy artifact on selected env""
+description: "deploy artifact on selected env"
 
 inputs:
   host:
